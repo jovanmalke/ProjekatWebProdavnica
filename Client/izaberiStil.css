@@ -1,0 +1,147 @@
+*{
+    color:rgb(0, 77, 153);
+    font-family: "Courier New";
+    font-size: 30px;
+    font-weight: bold;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(164,131,131,1) 21%, rgba(252,176,69,1) 100%);
+}
+.glavnaForma{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.goreForma{
+    padding: 10px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+}
+.goreLevoForma{ 
+    padding: 10px;
+    background: radial-gradient(circle, rgba(177,238,174,1) 0%, rgba(148,187,233,1) 100%);
+    width: 25%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 10px;
+}
+.goreDesnoForma{ 
+    padding: 10px;
+    width: 75%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    border-left: 1px solid black;
+}
+.formaLevo{
+    padding: 10px;
+    background: radial-gradient(circle, rgba(177,238,174,1) 0%, rgba(148,187,233,1) 100%);
+    width: 25%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 10px;
+}
+.formaDesno{
+    padding: 10px;
+    width: 75%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    border-left: 1px solid black;
+}
+.doleForma {
+    padding: 10px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.divZaNarudzbinu{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 10px;
+}
+.divProizvoda{
+    padding: 10px;
+    background: radial-gradient(circle, rgba(177,238,174,1) 0%, rgba(148,187,233,1) 100%);
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: 10px;
+}
+.slike{
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+}
+.proizvodiUNarudzbi{
+    background-color: white;
+}
+@media only screen and (max-width:900px){
+    .goreLevoForma{
+        width: 270px;
+    }
+}
+@media only screen and (max-width:700px){
+    .glavnaForma, .goreForma{
+        flex-direction: column;
+        align-items: center;
+    }
+    .goreDesnoForma{
+        border: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top: 1px solid black;
+    }
+}
+.prodavnicaDiv{
+    display: flex;
+    flex-direction: column-reverse;  
+    background: radial-gradient(circle, rgba(177,238,174,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+    height: 600px;
+    margin: 20px;
+}
+.tekstDiv{
+    width: 300px;
+    height: 100px;
+}
+.grafikaDiv{
+    display: flex;
+    flex-direction: column-reverse;  
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+}
+.crveniDiv{
+    width: 300px;
+    height: 5px;
+    background-color: red;
+}

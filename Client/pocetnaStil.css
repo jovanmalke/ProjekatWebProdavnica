@@ -1,0 +1,40 @@
+*{
+    color:rgb(0, 77, 153);
+    font-family: "Courier New";
+    font-size: 30px;
+    font-weight: bold;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(164,131,131,1) 21%, rgba(252,176,69,1) 100%);
+}
+.glavniDiv{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 auto;
+}
+.dugmiciDiv{
+    background-color: blue;
+    padding: 10px;
+    background: radial-gradient(circle, rgba(177,238,174,1) 0%, rgba(148,187,233,1) 100%);
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+    margin: 10px;
+    flex: 0 1 auto;
+}
+.dugme
+{
+    margin:0 auto;
+    flex: 0 1 auto;
+    margin-bottom: 0.3cm;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid rgba(192,210,231,1);
+    cursor: pointer;
+}
